@@ -14,6 +14,8 @@ public class node {
     private float score;
     private float tempScore;
     
+    //might need a list in each node or it could be made outside 
+    //with another hash map. currently undecided.
     //constructor
     node(String name){
         this.nodeName = name;
@@ -39,4 +41,5 @@ public class node {
     public float getTempScore(){
         return tempScore;
     }
+    
 }
